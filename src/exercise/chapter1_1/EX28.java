@@ -1,5 +1,6 @@
 package exercise.chapter1_1;
 
+import tools.BinarySearch;
 import tools.StdIn;
 
 import java.util.ArrayList;
