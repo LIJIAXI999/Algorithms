@@ -1,8 +1,12 @@
-package tools;
+package exercise.chapter1_1;
 
 /**
  * Created by 94760 on 2017/1/14.
  */
+
+import tools.In;
+import tools.StdIn;
+import tools.StdOut;
 
 import java.util.Arrays;
 
