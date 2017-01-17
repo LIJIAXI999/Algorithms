@@ -1,12 +1,8 @@
-package exercise.chapter1_1;
+package tools;
 
 /**
  * Created by 94760 on 2017/1/14.
  */
-
-import tools.In;
-import tools.StdIn;
-import tools.StdOut;
 
 import java.util.Arrays;
 
@@ -15,7 +11,10 @@ import java.util.Arrays;
  *---------------------------------------------------------------
  * public class BinarySearch
  * --------------------------------------------------------------
- *
+ *  public static int indexof(int[] a,int key)      Returns the index of the specified key
+ *                                                    in the ordered specified array.
+ *  public static int rank(int key,int[] a)         Returns the index of the specified key
+ *                                                    in the ordered specified array.
  */
 
 /**

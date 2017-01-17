@@ -1,11 +1,20 @@
-package exercise.chapter2_2;
-
-import tools.StdOut;
-import tools.StdRandom;
+package tools;
 
 /**
  * Created by 94760 on 2017/1/17.
  */
+
+/**
+ *             The API of Counter class
+ *-------------------------------------------------------------------------
+ * public class Counter
+ * ------------------------------------------------------------------------
+ *           Counter(String id)          create a counter named by id.
+ *   void    increment()                 add up 1 to the counter.
+ *   void    tally()                     return the counter's number.
+ *   String  toString()                  return a string to express an counter.
+ */
+
 public class Counter implements Comparable<Counter> {
     private final String name;
     private int count = 0;

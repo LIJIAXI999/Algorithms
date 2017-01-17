@@ -177,7 +177,7 @@ public final class StdRandom {
      */
     public static boolean bernoulli(double p) {
         if (!(p >= 0.0 && p <= 1.0))
-            throw new IllegalArgumentException("Probability must be between 0.0 and 1.0");
+        throw new IllegalArgumentException("Probability must be between 0.0 and 1.0");
         return uniform() < p;
     }
 
@@ -272,10 +272,10 @@ public final class StdRandom {
      * @return a random real number from the standard Pareto distribution
      */
     public static double pareto() {
-        return pareto(1.0);
-    }
+     return pareto(1.0);
+     }
 
-    /**
+     /**
      * Returns a random real number from a Pareto distribution with
      * shape parameter &alpha;.
      *
