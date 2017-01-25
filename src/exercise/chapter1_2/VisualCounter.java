@@ -1,4 +1,4 @@
-package exercise.chapter2_2;
+package exercise.chapter1_2;
 
 import tools.StdDraw;
 

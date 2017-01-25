@@ -1,4 +1,4 @@
-package exercise.chapter2_2;
+package exercise.chapter1_2;
 
 /**
  * Created by 94760 on 2017/1/21.
