@@ -15,6 +15,13 @@ public class FixedCapacityStack<Item> {
         return N == 0;
     }
 
+    /**
+     * EX01
+     */
+    public boolean isFull() {
+        return N == a.length;
+    }
+
     public int size() {
         return N;
     }
