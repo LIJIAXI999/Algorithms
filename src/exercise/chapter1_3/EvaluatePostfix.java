@@ -6,6 +6,12 @@ import tools.StdOut;
 /**
  * Created by 94760 on 2017/1/29.
  */
+
+/**
+ * The result:
+ * 23*21-/341-*+
+ * The result: 15.000000
+ */
 public class EvaluatePostfix {
     public static void main(String[] args) {
         String s = StdIn.readString();
