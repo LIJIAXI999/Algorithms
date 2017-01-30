@@ -57,8 +57,8 @@ public class TransAction{
 
     public String toString(){
         return "Who:"+name+
-                "\nWhen:"+date.toString()+
-                "\nAmount"+amount;
+                "\tWhen:" + date.toString() +
+                "\tAmount:" + amount;
     }
 
 
